@@ -7,7 +7,12 @@ This official implementation can be found [here](https://github.com/shubhtuls/vo
 
 ![Teaser Image](https://shubhtuls.github.io/volumetricPrimitives/resources/images/teaser.png)
 
-
+### 1) Setup
+```
+./scripts/setup.sh
+./scripts/download_preprocessed_dataset.sh # download preprocessed shapenet dataset
+./scripts/runbackend # login
+```
 
 ### 2) Training
 We provide code to train the abstraction models on ShapeNet categories.

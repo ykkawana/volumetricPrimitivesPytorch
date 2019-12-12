@@ -92,6 +92,7 @@ params.snapshotDir = os.path.join('../cachedir/snapshots/', params.name)
 logger = SummaryWriter('../cachedir/logs/{}/'.format(params.name))
 
 dataloader = SimpleCadData(params)
+print('finish set up dataloader')
 params.primTypes = ['Cu']
 params.nz = 3
 params.nPrimChoices = len(params.primTypes)
